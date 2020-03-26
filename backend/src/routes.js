@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors');
+
 
 const OngController = require('./controllers/OngController');
 const IncidentController = require('./controllers/IncidentController');
@@ -8,7 +8,7 @@ const SessionController = require('./controllers/SessionController');
 
 const routes = express.Router();
 
-app.use(cors());
+
 /**
  * Rota / Recurso
  */
